@@ -21,6 +21,9 @@ $ npm test
 
 
 ## Architectural decisions and overal considerations
+- The challege seems to be simple so I tried not to overengineer it.
+- I changed some of the examples to increase test coverage.
+- I was always focused in performance
 
 
 ## Some feedback 
