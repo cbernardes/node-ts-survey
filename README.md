@@ -11,7 +11,7 @@ $ npm install
 
 ## Run the API
 ```sh
-TBA
+npm start -- './example-data/survey-1.csv' './example-data/survey-1-responses.csv'
 ```
 
 ## Test the API
@@ -20,4 +20,10 @@ $ npm test
 ```
 
 
-## Architectural decisions
+## Architectural decisions and overal considerations
+
+
+## Some feedback 
+- The directions could use some improvement
+  - from "Any response with a 'submitted_at' date has submitted and is said to have participated in the survey."
+  - to "Any response with a 'submitted_at' date is connsidered to have participated in the survey." (At least it is what I understood);
